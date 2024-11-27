@@ -4,8 +4,7 @@
   "description": "A backend powered by json-server",
   "main": "server.js",
   "scripts": {
-    "dev": "node server.js",
-    "start": "node server.js"
+    "dev": "npx json-server --watch db.json --port 5000"
   },
   "keywords": [
     "json-server",
