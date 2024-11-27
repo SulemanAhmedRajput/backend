@@ -1,15 +1,20 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A backend powered by json-server",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node server.js",
+    "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "json-server",
+    "backend",
+    "mock-api"
+  ],
+  "author": "Suleman Ahmed",
   "license": "ISC",
   "dependencies": {
-    "json-server": "1.0.0-beta.3"
+    "json-server": "^0.17.3"
   }
 }
